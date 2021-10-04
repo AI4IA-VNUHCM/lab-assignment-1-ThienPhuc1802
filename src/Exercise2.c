@@ -43,7 +43,7 @@ int main(int argc, char *argv[]) {
 		}
 
 	    }
-		printf("\nMax:%d ",Max);
+		printf("Max:%d ",Max);
 
 		printf("\nMin:%d ",Min);
 	
