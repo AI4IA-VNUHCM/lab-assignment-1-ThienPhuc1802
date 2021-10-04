@@ -16,6 +16,12 @@ int main(int argc, char *argv[]) {
 	//testing variable, applying it to your algorithm for auto-evaluating
 	int testcase = atoi(argv[1]);
 	//Your codes here
+	while (testcase>0)
+	{ printf("%d ",testcase%10);
+	testcase/=10;
+		/* code */
+	}
+	
 	
 	return 0;
 }
