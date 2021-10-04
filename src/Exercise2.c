@@ -43,9 +43,9 @@ int main(int argc, char *argv[]) {
 		}
 
 	    }
-		printf("\nMax: %d ",Max);
+		printf("\nMax:%d ",Max);
 
-		printf("\nMin: %d ",Min);
+		printf("\nMin:%d ",Min);
 	
 
 	return 0;
