@@ -25,22 +25,21 @@ int main(int argc, char *argv[]) {
 		else
 			testcase[i] = atoi(argv[i+1]);
 	}
-	int Min,Max;
-	Min=testcase[0];
-	Max=testcase[0];
+	int Min,Max,t;
+	Min=testcase[2];
+	Max=testcase[2];
 	
 	//Your codes here
-	for(i=0;i<argc;i++){
-		if (testcase[i]>=Max)
+	for(t=0;t<argc-1;t++){
+		if (testcase[t]>=Max)
 		{
-			Max=testcase[i];
+			Max=testcase[t];
 		}
-		if (testcase[i]<=Min)
+		if (testcase[t]<=Min)
 		{
-			Min=testcase[i];
+			Min=testcase[t];
 		}
 	}
-		printf("Max:%d" ,Max); 
-		printf("\nMin:%d",Min);
+		printf("Max: %d\nMin: %d" ,Max,Min);
 	return 0;
 }
